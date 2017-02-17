@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  healthservices: MyString
+  employment: MyString
+  education: MyString
+  sports: MyString
+  recreational: MyString
+  legal: MyString
+  discounts: MyString
+  community: MyString
+
+two:
+  healthservices: MyString
+  employment: MyString
+  education: MyString
+  sports: MyString
+  recreational: MyString
+  legal: MyString
+  discounts: MyString
+  community: MyString

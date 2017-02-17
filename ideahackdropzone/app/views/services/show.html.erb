@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Healthservices:</strong>
+  <%= @service.healthservices %>
+</p>
+
+<p>
+  <strong>Employment:</strong>
+  <%= @service.employment %>
+</p>
+
+<p>
+  <strong>Education:</strong>
+  <%= @service.education %>
+</p>
+
+<p>
+  <strong>Sports:</strong>
+  <%= @service.sports %>
+</p>
+
+<p>
+  <strong>Recreational:</strong>
+  <%= @service.recreational %>
+</p>
+
+<p>
+  <strong>Legal:</strong>
+  <%= @service.legal %>
+</p>
+
+<p>
+  <strong>Discounts:</strong>
+  <%= @service.discounts %>
+</p>
+
+<p>
+  <strong>Community:</strong>
+  <%= @service.community %>
+</p>
+
+<%= link_to 'Edit', edit_service_path(@service) %> |
+<%= link_to 'Back', services_path %>
